@@ -33,8 +33,8 @@ config:
 graph LR
     subgraph "Google Cloud"
         secrets[Secrets Manager]
-        outbound_ip["Public IP (outbound)<br/>34.111.135.191"]
-        inbound_ip["Public IP (inbound)<br/>104.197.22.243"]
+        outbound_ip["Public IP (outbound)<br/>104.197.22.243"]
+        inbound_ip["Public IP (inbound)<br/>34.111.135.191"]
         subgraph "Google Cloud Run"
             wcfc-groups[wcfc-groups service]
             wcfc-manuals[wcfc-manuals service]
