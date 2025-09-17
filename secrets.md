@@ -62,3 +62,14 @@ revoked/rotated.  This document tracks the status of this effort.
     - (obsolete app - no code fix)
     - [ ] credential revoked
 
+### Hardcoded JWT master key
+- wcfc-groundschool/src/main/java/org/wingsofcarolina/gs/authentication/AuthUtils.java
+    - [X] code fixed
+    - [ ] credential revoked
+- wcfc-manuals/src/main/java/org/wingsofcarolina/quiz/authentication/AuthUtils.java
+    - [ ] code fixed
+    - [ ] credential revoked
+- wcfc-quiz/src/main/java/org/wingsofcarolina/quiz/authentication/AuthUtils.java
+    - [ ] code fixed
+    - [ ] credential revoked
+
