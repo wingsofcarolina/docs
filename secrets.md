@@ -12,10 +12,10 @@ revoked/rotated.  This document tracks the status of this effort.
     - [ ] code fixed
     - [ ] credential revoked
 - wcfc-manuals/src/main/resources/credentials-wcfc
-    - [ ] code fixed
+    - [X] code fixed
     - [ ] credential revoked
 - wcfc-students/src/main/resources/credentials-wcfc
-    - [ ] code fixed
+    - (obsolete app - no code fix)
     - [ ] credential revoked
 
 ### MongoDB
@@ -31,16 +31,16 @@ revoked/rotated.  This document tracks the status of this effort.
     - [ ] code fixed
     - [ ] credential revoked
 - wcfc-manuals/src/main/java/org/wingsofcarolina/manuals/slack/SlackAuthService.java
-    - [ ] code fixed
+    - [X] code fixed
     - [ ] credential revoked
 - wcfc-quiz/src/main/java/org/wingsofcarolina/quiz/resources/Slack.java
     - [ ] code fixed
     - [ ] credential revoked
 - wcfc-students/deployment/slack
-    - [ ] code fixed
+    - (obsolete app - no code fix)
     - [ ] credential revoked
 - wcfc-students/src/main/java/org/wingsofcarolina/students/slack/SlackAuthService.java
-    - [ ] code fixed
+    - (obsolete app - no code fix)
     - [ ] credential revoked
 
 ### WCFC\_TOKEN
@@ -48,7 +48,7 @@ revoked/rotated.  This document tracks the status of this effort.
     - [X] code fixed
     - [ ] credential revoked
 - wcfc-manuals/src/main/java/org/wingsofcarolina/manuals/resources/MembersResource.java
-    - [ ] code fixed
+    - [X] code fixed
     - [ ] credential revoked
 
 ### Groups.io
@@ -58,10 +58,7 @@ revoked/rotated.  This document tracks the status of this effort.
 
 ### Google OAuth token
 - wcfc-learning/src/main/resources/credentials.json
-    - [ ] code fixed
+- wcfc-learning/src/main/resources/StoredCredential
+    - (obsolete app - no code fix)
     - [ ] credential revoked
 
-### Dropbox token
-- wcfc-learning/src/main/resources/StoredCredential
-    - [ ] code fixed
-    - [ ] credential revoked
