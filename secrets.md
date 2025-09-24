@@ -34,7 +34,7 @@ revoked/rotated.  This document tracks the status of this effort.
     - [X] code fixed
     - [ ] credential revoked
 - wcfc-quiz/src/main/java/org/wingsofcarolina/quiz/resources/Slack.java
-    - [ ] code fixed
+    - [X] code fixed
     - [ ] credential revoked
 - wcfc-students/deployment/slack
     - (obsolete app - no code fix)
@@ -66,10 +66,19 @@ revoked/rotated.  This document tracks the status of this effort.
 - wcfc-groundschool/src/main/java/org/wingsofcarolina/gs/authentication/AuthUtils.java
     - [ ] code fixed
     - [ ] credential revoked
-- wcfc-manuals/src/main/java/org/wingsofcarolina/quiz/authentication/AuthUtils.java
+- wcfc-manuals/src/main/java/org/wingsofcarolina/manuals/authentication/AuthUtils.java
     - [X] code fixed
     - [ ] credential revoked
 - wcfc-quiz/src/main/java/org/wingsofcarolina/quiz/authentication/AuthUtils.java
-    - [ ] code fixed
+    - [X] code fixed
     - [ ] credential revoked
+
+### Dwight's Password
+- wcfc-groundschool/src/main/java/org/wingsofcarolina/gs/resources/GsResource.java
+    - [ ] code fixed
+    - n/a credential revoked
+- wcfc-quiz/src/main/java/org/wingsofcarolina/quiz/QuizService.java
+    - [X] code fixed
+    - n/a credential revoked
+
 
