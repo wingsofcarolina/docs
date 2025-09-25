@@ -6,10 +6,10 @@ revoked/rotated.  This document tracks the status of this effort.
 
 ### AWS
 - wcfc-groundschool/misc/dfrye\_accessKeys.csv
-    - [ ] code fixed
+    - [X] code fixed
     - [ ] credential revoked
 - wcfc-groundschool/src/main/resources/credentials-wcfc
-    - [ ] code fixed
+    - [X] code fixed
     - [ ] credential revoked
 - wcfc-manuals/src/main/resources/credentials-wcfc
     - [X] code fixed
@@ -25,10 +25,10 @@ revoked/rotated.  This document tracks the status of this effort.
 
 ### Slack
 - wcfc-groundschool/src/main/java/org/wingsofcarolina/gs/resources/GsResource.java
-    - [ ] code fixed
+    - [X] code fixed
     - [ ] credential revoked
 - wcfc-groundschool/src/main/java/org/wingsofcarolina/gs/slack/SlackAuthService.java
-    - [ ] code fixed
+    - [X] code fixed
     - [ ] credential revoked
 - wcfc-manuals/src/main/java/org/wingsofcarolina/manuals/slack/SlackAuthService.java
     - [X] code fixed
@@ -64,7 +64,7 @@ revoked/rotated.  This document tracks the status of this effort.
 
 ### Hardcoded JWT master key
 - wcfc-groundschool/src/main/java/org/wingsofcarolina/gs/authentication/AuthUtils.java
-    - [ ] code fixed
+    - [X] code fixed
     - [ ] credential revoked
 - wcfc-manuals/src/main/java/org/wingsofcarolina/manuals/authentication/AuthUtils.java
     - [X] code fixed
@@ -75,7 +75,7 @@ revoked/rotated.  This document tracks the status of this effort.
 
 ### Dwight's Password
 - wcfc-groundschool/src/main/java/org/wingsofcarolina/gs/resources/GsResource.java
-    - [ ] code fixed
+    - [X] code fixed
     - n/a credential revoked
 - wcfc-quiz/src/main/java/org/wingsofcarolina/quiz/QuizService.java
     - [X] code fixed
