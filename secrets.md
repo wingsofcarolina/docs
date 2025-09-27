@@ -7,21 +7,22 @@ revoked/rotated.  This document tracks the status of this effort.
 ### AWS
 - wcfc-groundschool/misc/dfrye\_accessKeys.csv
     - [X] code fixed
-    - [ ] credential revoked
+    - [X] credential revoked
 - wcfc-groundschool/src/main/resources/credentials-wcfc
     - [X] code fixed
-    - [ ] credential revoked
+    - [X] credential revoked
 - wcfc-manuals/src/main/resources/credentials-wcfc
     - [X] code fixed
-    - [ ] credential revoked
+    - [X] credential revoked
 - wcfc-students/src/main/resources/credentials-wcfc
     - (obsolete app - no code fix)
-    - [ ] credential revoked
+    - [X] credential revoked
 
 ### MongoDB
 - wcfc-groups/launch
     - [X] code fixed
     - [ ] credential revoked
+      - Cannot revoke credential as it is on Dwight's (dfrye.org) server.  I deleted all WCFC data from this DB.
 
 ### Slack
 - wcfc-groundschool/src/main/java/org/wingsofcarolina/gs/resources/GsResource.java
@@ -46,32 +47,33 @@ revoked/rotated.  This document tracks the status of this effort.
 ### WCFC\_TOKEN
 - wcfc-groups/src/main/java/org/wingsofcarolina/groups/http/ManualsService.java
     - [X] code fixed
-    - [ ] credential revoked
+    - [X] credential revoked
 - wcfc-manuals/src/main/java/org/wingsofcarolina/manuals/resources/MembersResource.java
     - [X] code fixed
-    - [ ] credential revoked
+    - [X] credential revoked
 
 ### Groups.io
 - wcfc-groups/src/main/java/org/wingsofcarolina/groups/server/UpdateHandler.java
     - [X] code fixed
-    - [ ] credential revoked
+    - [X] credential revoked
 
 ### Google OAuth token
 - wcfc-learning/src/main/resources/credentials.json
 - wcfc-learning/src/main/resources/StoredCredential
     - (obsolete app - no code fix)
     - [ ] credential revoked
+        - Not revoked because I can't find it active anywhere; appears to be to a deleted Google Cloud project
 
 ### Hardcoded JWT master key
 - wcfc-groundschool/src/main/java/org/wingsofcarolina/gs/authentication/AuthUtils.java
     - [X] code fixed
-    - [ ] credential revoked
+    - [X] credential revoked
 - wcfc-manuals/src/main/java/org/wingsofcarolina/manuals/authentication/AuthUtils.java
     - [X] code fixed
-    - [ ] credential revoked
+    - [X] credential revoked
 - wcfc-quiz/src/main/java/org/wingsofcarolina/quiz/authentication/AuthUtils.java
     - [X] code fixed
-    - [ ] credential revoked
+    - [X] credential revoked
 
 ### Dwight's Password
 - wcfc-groundschool/src/main/java/org/wingsofcarolina/gs/resources/GsResource.java
@@ -80,5 +82,4 @@ revoked/rotated.  This document tracks the status of this effort.
 - wcfc-quiz/src/main/java/org/wingsofcarolina/quiz/QuizService.java
     - [X] code fixed
     - n/a credential revoked
-
 
