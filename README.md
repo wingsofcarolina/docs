@@ -16,6 +16,12 @@ The following apps also exist, but are no longer used (or were never used):
 * `wcfc-students`: Flight training management system
 * `wcfc-squawk`: Aircraft defect management system
 
+Additionally, the following repos store code used internally or for utility purposes:
+
+* `wcfc-backup`: Container image used to perform regular backups of the MongoDB data
+* `wcfc-updater`: Container image used for a Google Run Job to redeploy apps after Dependabot updates
+* `wcfc-integration-testing`: Container image with Playwright and WireMock, used for running integration tests
+
 ### Deployment
 
 These apps are deployed to Google Cloud, under consolidated billing with the club's Google Workspace account.
