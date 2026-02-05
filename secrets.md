@@ -21,28 +21,27 @@ revoked/rotated.  This document tracks the status of this effort.
 ### MongoDB
 - wcfc-groups/launch
     - [X] code fixed
-    - [ ] credential revoked
-      - Cannot revoke credential as it is on Dwight's (dfrye.org) server.  I deleted all WCFC data from this DB.
+    - [X] git history filtered
 
 ### Slack
 - wcfc-groundschool/src/main/java/org/wingsofcarolina/gs/resources/GsResource.java
     - [X] code fixed
-    - [ ] credential revoked
+    - [X] git history filtered
 - wcfc-groundschool/src/main/java/org/wingsofcarolina/gs/slack/SlackAuthService.java
     - [X] code fixed
-    - [ ] credential revoked
+    - [X] git history filtered
 - wcfc-manuals/src/main/java/org/wingsofcarolina/manuals/slack/SlackAuthService.java
     - [X] code fixed
-    - [ ] credential revoked
+    - [X] git history filtered
 - wcfc-quiz/src/main/java/org/wingsofcarolina/quiz/resources/Slack.java
     - [X] code fixed
-    - [ ] credential revoked
+    - [X] git history filtered
 - wcfc-students/deployment/slack
     - (obsolete app - no code fix)
-    - [ ] credential revoked
+    - [X] git history filtered
 - wcfc-students/src/main/java/org/wingsofcarolina/students/slack/SlackAuthService.java
     - (obsolete app - no code fix)
-    - [ ] credential revoked
+    - [X] git history filtered
 
 ### WCFC\_TOKEN
 - wcfc-groups/src/main/java/org/wingsofcarolina/groups/http/ManualsService.java
@@ -61,8 +60,7 @@ revoked/rotated.  This document tracks the status of this effort.
 - wcfc-learning/src/main/resources/credentials.json
 - wcfc-learning/src/main/resources/StoredCredential
     - (obsolete app - no code fix)
-    - [ ] credential revoked
-        - Not revoked because I can't find it active anywhere; appears to be to a deleted Google Cloud project
+    - [X] git history filtered
 
 ### Hardcoded JWT master key
 - wcfc-groundschool/src/main/java/org/wingsofcarolina/gs/authentication/AuthUtils.java
@@ -78,8 +76,8 @@ revoked/rotated.  This document tracks the status of this effort.
 ### Dwight's Password
 - wcfc-groundschool/src/main/java/org/wingsofcarolina/gs/resources/GsResource.java
     - [X] code fixed
-    - n/a credential revoked
+    - [X] git history filtered
 - wcfc-quiz/src/main/java/org/wingsofcarolina/quiz/QuizService.java
     - [X] code fixed
-    - n/a credential revoked
+    - [X] git history filtered
 
